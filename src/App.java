@@ -9,6 +9,3 @@ public class App {
         System.out.println("Hello, World!");
     }
 }
-
-  git config --global user.email "deborassantos880@gmail.com"
-  git config --global user.name "debbySantos"
