@@ -67,10 +67,17 @@ public class App {
         System.out.println("App.imprimirDados()");
 
         System.out.printf("Aluno: %s \n media: %.2f \n conceito: %c \n status: %s \n", nome, media, conceito, status);
-        
+
     }
 
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        String nome = obterNome();
+        float nota1 = nota();
+        float nota2 = nota();
+        float nota3 = nota();
+        float media = calculoMedia(nota1, nota2, nota3);
+        char conceito = conceito(media);
+        String status = status(conceito);
+        imprimirDados(nome, media, conceito, status);
     }
 }
