@@ -26,9 +26,9 @@ public class App {
 
     public static char conceito(float media){
         System.out.println("App.conceito()");
-
+        char conceito;
         if(media >= 9){
-            
+            conceito = 'A';
         }
     }
 
