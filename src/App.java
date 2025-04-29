@@ -66,7 +66,7 @@ public class App {
     public static void imprimirDados(String nome, float media, char conceito, String status) {
         System.out.println("App.imprimirDados()");
 
-        System.out.printf("Aluno: %s \n media: %.2f \n conceito: %c \n status: %s \n", nome, media, conceito, status);
+        System.out.printf(" Aluno: %s \n Media: %.2f \n Conceito: %c \n Status: %s \n", nome, media, conceito, status);
 
     }
 
